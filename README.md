@@ -1,6 +1,10 @@
 # Landingpage_DiamondSolutions
 
+
 Bem-vindo(a) à página inicial oficial da Diamond Solutions. Neste repositório, você encontrará o código e os recursos para a nossa página inicial, que apresenta nossas soluções e serviços de última geração. Esta página é construída utilizando HTML e CSS, proporcionando uma interface profissional e amigável para os nossos potenciais clientes.
+
+Você pode acessar ao link a baixo para ver a landing page no ar
+https://landingpage-diamond-solutions.vercel.app/
 
 ## Recursos
 
