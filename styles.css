@@ -16,6 +16,7 @@
     display: flex;
     justify-content: center;
     width: 100%;
+    height: 100vh;
     background-color: #fff;
   }
   
@@ -42,8 +43,10 @@
     background-color: #fff;
   }
   
-  img {
-    height: 100%;
+  .logo_header_img {
+    height: 90%;
+    width: auto;
+    margin: auto;
   }
   
   /* Estilos da barra de navegação */
@@ -64,7 +67,6 @@
     letter-spacing: 2px;
     font-size: 0.8rem;
     margin: 0 25px;
-    min-width: 220px;
     padding: 0 25px;
     width: auto;
     height: 50%;
@@ -73,7 +75,7 @@
   /* Estilos do conteúdo principal */
   main {
     width: 100%;
-    height: 800px;
+    height: 900px;
     background-color: #fff;
   }
   
@@ -189,4 +191,152 @@
     width: 20%;
     height: 60%;
   }
+  @media (max-width:1000px) {
+    /* Estilos do Cabeçalho */
+    .logo_header_img{
+      width: 80%;
+      height: auto;
+      margin: auto;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      height: 100px;
+      background-color: var(--primary-color);
+    }
+    
+    .nav_button {
+      background: none;
+      border: 2.5px solid white;
+      border-radius: 5px;
+      color: #FFF;
+      letter-spacing: 2px;
+      font-size: 10px;
+      margin: 0 5px;
+      padding: 0 5px;
+      width: auto;
+      height: 50%;
+    }
+    /* Estilos do conteudo principal */
+    main {
+      width: 100%;
+      height: 3280px;
+    }
+    
+    .about_us {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+    }
+    
+    .text_box {
+      color: var(--secondary-color);
+      text-align: center;
+      margin: 20%;
+      width: 80%;
+      height: 300px;
+    }
+    
+    h2, h1 {
+      font-family: var(--font-family);
+      padding: 50px 0 50px 5px;
+      letter-spacing: 2px;
+      font-size: 2.5rem;
+      font-weight: 700;
+    }
+    
+    h1 {
+      color: var(--secondary-color);
+      text-align: center;
+    }
+
+    /* Estilos do Serviços */
+    .services {
+      width: 100%;
+      height: 1380px;
+    }
+    
+    .services_items {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+      height: 1200px;
+    }
+    
+    .services_items_images {
+      width: 250px;
+      height: 250px;
+      border-radius: 40px;
+    }
+    /* Estilos do rodapé */
+  .footer_banner {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 250px;
+    background: linear-gradient(to right, #3F9CC9, #17CEDF);
+  }
   
+  .footer_logo, .footer_map, .footer_redes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--font-family);
+    letter-spacing: 2px;
+    color: white;
+    width: 32%;
+    height: 90%;
+  }
+  
+  .footer_logo_img {
+    width: 100%;
+    height: auto;
+    margin: auto;
+  }
+  
+  .footer_map_header, .footer_redes_header {
+    margin: 5%;
+    width: 90%;
+    height: 20%;
+    letter-spacing: 3px;
+    font-size: 1rem;
+  }
+  
+  .footer_map_list, .footer_redes_icons {
+    width: 80%;
+    height: 40%;
+    line-height: 1;
+    font-weight: 400;
+    letter-spacing: 4px;
+    padding-left: 5%;
+    margin: auto;
+    font-size: 60%;
+  }
+  
+  .footer_redes_icons {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 80%;
+    height: 50%;
+  }
+  h3 {
+    font-family: var(--font-family);
+    letter-spacing: 2px;
+    font-size: 1rem;
+    font-weight: 600;
+  }
+  .footer_rede_icons_img {
+    margin: 0;
+    padding-left: -20;
+    width: 30%;
+    height: 50%;
+  }
+  }
